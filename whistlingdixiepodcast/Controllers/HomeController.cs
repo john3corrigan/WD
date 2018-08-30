@@ -15,14 +15,14 @@ namespace whistlingdixiepodcast.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Getting to know us.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "We have email.";
 
             return View();
         }
